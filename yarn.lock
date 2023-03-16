@@ -2624,7 +2624,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@clerk/clerk-react@npm:^4.2.2":
+"@clerk/clerk-react@npm:4.11.2":
   version: 4.11.2
   resolution: "@clerk/clerk-react@npm:4.11.2"
   dependencies:
@@ -2640,22 +2640,21 @@ __metadata:
   linkType: hard
 
 "@clerk/shared@npm:^0.11.2":
-  version: 0.11.2
-  resolution: "@clerk/shared@npm:0.11.2"
+  version: 0.11.4
+  resolution: "@clerk/shared@npm:0.11.4"
   peerDependencies:
-    react: 18.2.0
-    react-dom: 18.2.0
-    react-test-renderer: ^18.2.0
-  checksum: a53b6545ce2fa63e3ccdef06cd427850172fa4709127f7f7a3f8725f9026c3b3d02dff273f07d714646524623db7b71df30a37ddc8b0b0cb150dbe6b0e5c841e
+    react: ">=16"
+    react-dom: ">=16"
+  checksum: 80aff57fe04972f17c981faf5afabab86210d631975afae81e5aaaf26188bc153a325e42a79a0b06da9f6ea251ab2a808aa4fda7173f03a632c557c5f5eef5b6
   languageName: node
   linkType: hard
 
 "@clerk/types@npm:^3.27.0":
-  version: 3.27.0
-  resolution: "@clerk/types@npm:3.27.0"
+  version: 3.31.0
+  resolution: "@clerk/types@npm:3.31.0"
   dependencies:
     csstype: 3.1.1
-  checksum: b377cdefbe041e0ba5e2e32ea179b88f5466ca54aadea9d8f34065d58c292f7134d824619d0ab131042f1b47935d5716cba251ee89fdd0a98f3f770edd83a755
+  checksum: 18d16174617fb00124b9683a24cf441e4dbef63e6c4fe7bac802aa987a27b4e19b6b398f2a8d8d650e7698e3f4aaed773317ba4dffc788ad3f469e44d5711e58
   languageName: node
   linkType: hard
 
@@ -5151,7 +5150,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@revertdotdev/revert-ui@workspace:packages/client"
   dependencies:
-    "@clerk/clerk-react": ^4.2.2
+    "@clerk/clerk-react": 4.11.2
     "@codemirror/lang-javascript": ^6.0.2
     "@codemirror/lang-sql": ^6.3.0
     "@emotion/react": ^11.10.4
