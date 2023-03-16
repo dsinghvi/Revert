@@ -2625,36 +2625,37 @@ __metadata:
   linkType: hard
 
 "@clerk/clerk-react@npm:^4.2.2":
-  version: 4.12.0
-  resolution: "@clerk/clerk-react@npm:4.12.0"
+  version: 4.11.2
+  resolution: "@clerk/clerk-react@npm:4.11.2"
   dependencies:
-    "@clerk/shared": ^0.12.2
-    "@clerk/types": ^3.28.4
+    "@clerk/shared": ^0.11.2
+    "@clerk/types": ^3.27.0
     swr: 1.3.0
     tslib: 2.4.1
   peerDependencies:
     react: ">=16"
     react-dom: ">=16"
-  checksum: d7a2ada53a2acfc18e8d00dcf1699770db37f25432c9d2c3573b44b8a4805330deab8bf9e016298732c6f3f95bb3c4136fcffd611a97bb8506a4e9d173502567
+  checksum: bc7ec22ba2fe7d485cbe6201264910265901d7553ba6bd1267ced6310950dd436fe4b2361171fc62bac7be474c83be2676ea2c456f1aec7ed4d51b44bb7b7529
   languageName: node
   linkType: hard
 
-"@clerk/shared@npm:^0.12.2":
-  version: 0.12.2
-  resolution: "@clerk/shared@npm:0.12.2"
+"@clerk/shared@npm:^0.11.2":
+  version: 0.11.2
+  resolution: "@clerk/shared@npm:0.11.2"
   peerDependencies:
-    react: ">=16"
-    react-dom: ">=16"
-  checksum: c37eb4e2fd7fcf64c52fb637009038e62b9b7bd8e9cbeceadf5469ee751dd5fc61396220ebcbb701688d1e5aa3e81dcf1b06d3bb8aaad725a6dc8bb785d08dfa
+    react: 18.2.0
+    react-dom: 18.2.0
+    react-test-renderer: ^18.2.0
+  checksum: a53b6545ce2fa63e3ccdef06cd427850172fa4709127f7f7a3f8725f9026c3b3d02dff273f07d714646524623db7b71df30a37ddc8b0b0cb150dbe6b0e5c841e
   languageName: node
   linkType: hard
 
-"@clerk/types@npm:^3.28.4":
-  version: 3.28.4
-  resolution: "@clerk/types@npm:3.28.4"
+"@clerk/types@npm:^3.27.0":
+  version: 3.27.0
+  resolution: "@clerk/types@npm:3.27.0"
   dependencies:
     csstype: 3.1.1
-  checksum: 60bf80e9c5209206cde5e7c1f3ba579fe3b9ced3244e24994ccaff813c195768d2c689e19cabf775a376952369151c85e9563236cc39f9204efd96b882387133
+  checksum: b377cdefbe041e0ba5e2e32ea179b88f5466ca54aadea9d8f34065d58c292f7134d824619d0ab131042f1b47935d5716cba251ee89fdd0a98f3f770edd83a755
   languageName: node
   linkType: hard
 
